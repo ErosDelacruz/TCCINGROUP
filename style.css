@@ -1,0 +1,44 @@
+@import url(boxes.css);
+@import url(imagens.css);
+@import url(ConteudoUm.css);
+@import url(nav.css);
+@import url(ConteudoDois.css);
+@import url(ConteudoTres.css);
+@import url(ConteudoQuatro.css);
+@import url(ConteudoCinco.css);
+
+main {
+                   max-width: 1200px;
+                   margin: auto;
+}
+body {
+                   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                   color: #ffff;
+                   background-color: black;
+                   margin: 0;
+                   padding: 0;
+}
+
+.title {
+                   display: flex;
+}
+
+.title, .logo {
+                   margin-right: 60px;
+}
+
+.logo img {
+                   width: 70px;
+                   border-radius: 70%;
+                   border: 5px solid purple;
+                   height: 70px;
+}
+
+.logo {
+                   display: flex;
+                   
+}
+
+.logo .title {
+                   padding-left: 15px;
+}
